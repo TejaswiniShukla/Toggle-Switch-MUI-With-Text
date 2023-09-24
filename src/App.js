@@ -39,6 +39,12 @@ const CustomizeSwitch = styled((props) => (
     '&.Mui-disabled + .MuiSwitch-track': {
       opacity:  0.3,
     },
+    '&:not(.Mui-checked) .MuiSwitch-thumb': {
+      color: 'red',
+    },
+    '&.Mui-checked .MuiSwitch-thumb': {
+      
+    },
   },
   '& .MuiSwitch-thumb': {
     boxSizing: 'border-box',
